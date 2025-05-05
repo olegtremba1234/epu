@@ -23,7 +23,9 @@ export default function Hero() {
         </p>
         <Link
           to="/contacts"
-          className="bg-transparent outline text-white px-6 py-3 rounded-md font-medium hover:bg-green-800 hover:outline-green-800 transition delay-150 duration-250 ease-in "
+          className="border border-white text-white px-6 py-3 rounded-md font-medium
+             hover:bg-green-800/40 hover:border-green-800/40 
+             transition duration-200 ease-in-out"
         >
           Зв’язатися з нами
         </Link>

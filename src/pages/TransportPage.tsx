@@ -1,5 +1,5 @@
-import { Link } from "react-router";
 import HeroParallax from "../components/HeroParallax";
+import ShinyTruckButton from "../components/ShinyTruckButton";
 
 export default function Transport() {
   return (
@@ -22,12 +22,9 @@ export default function Transport() {
         <p className="font-semibold text-lg text-green-800">
           Ми гарантуємо надійність, швидкість і безпеку кожного рейсу!
         </p>
-        <Link
-          to="/activity/transport/calculation"
-          className="mt-4 inline-block bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700"
-        >
+        <ShinyTruckButton to="/activity/transport/calculation">
           Розрахувати вартість
-        </Link>
+        </ShinyTruckButton>
       </div>
     </>
   );

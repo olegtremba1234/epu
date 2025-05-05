@@ -11,7 +11,7 @@ const ContactSection = () => (
     </p>
     <Link
       to="/contacts"
-      className=" bg-transparent outline text-green-800 px-6 py-3 rounded font-medium hover:bg-green-800 hover:text-white transition delay-150 duration-200"
+      className="border border-green-800 text-green-800 px-6 py-3 rounded-md font-medium hover:bg-green-800 hover:border-green-800 hover:text-white transition duration-200 ease-in-out"
       data-aos="fade-up"
     >
       Контакти

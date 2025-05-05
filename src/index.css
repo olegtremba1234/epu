@@ -1,19 +1,5 @@
 @import "tailwindcss";
 
-@keyframes glossy {
-  0% {
-    left: -75%;
-  }
-
-  50% {
-    left: 125%;
-  }
-
-  100% {
-    left: 125%;
-  }
-}
-
 @keyframes truckMove {
   0% {
     left: -60px;
@@ -30,4 +16,20 @@
 
 .animate-truckMove {
   animation: truckMove 4s ease-in-out infinite;
+}
+
+/* Стилі для пагінації */
+.swiper-pagination-bullet {
+  background-color: #2f8555;
+  /* Змінює колір неактивних пагінаційних елементів */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #14c514;
+  /* Змінює колір активного пагінаційного елемента */
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: #218b2f;
+  /* Змінює колір при наведенні */
 }

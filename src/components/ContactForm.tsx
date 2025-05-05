@@ -133,14 +133,15 @@ export default function ContactForm({
 
           <button
             type="submit"
-            className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition delay-150 duration-200 cursor-pointer"
+            className="relative inline-block px-6 py-3 bg-green-700 text-white font-semibold rounded-md overflow-hidden hover:bg-green-800 transition delay-100 cursor-pointer"
           >
             Надіслати
           </button>
 
           {submitted && (
-            <p className="text-green-600 text-center mt-2">
-              Дякуємо! Ваше повідомлення надіслано.
+            <p className="text-green-800 text-center mt-2">
+              Дякуємо! Ваше повідомлення надіслано. Ми звяжемось з Вами як
+              найшвидше в наші робочі години 9-18.
             </p>
           )}
         </form>
