@@ -1,11 +1,11 @@
 import Hero from "../components/HeroSection";
+import TilesSection from "../components/TilesSection";
 import About from "../components/AboutSection";
 import Services from "../components/ServicesSection";
-import Benefits from "../components/BenefitsSection";
-import ContactSection from "../components/ContactSection";
-import Partners from "../components/PartnersSection";
-import TilesSection from "../components/TilesSection";
 import LogisticsSection from "../components/LogisticsSection";
+import Benefits from "../components/BenefitsSection";
+import PartnersSection from "../components/PartnersSection";
+import ContactSection from "../components/ContactSection";
 
 export default function Home() {
   return (
@@ -18,11 +18,12 @@ export default function Home() {
       <About />
       {/* Services Section */}
       <Services />
-      {/* Benefits Section */}
+      {/* Logistics Section */}
       <LogisticsSection />
+      {/* Benefits Section */}
       <Benefits />
       {/* Partners Section */}
-      <Partners />
+      <PartnersSection />
       {/* CTA Section */}
       <ContactSection />
     </div>

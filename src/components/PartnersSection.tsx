@@ -2,9 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { partners } from "../data/partnersLogoData";
 
-import "swiper/css";
-import "swiper/css/pagination";
-
 export default function PartnersSection() {
   return (
     <section className="py-16 bg-gray-50">
