@@ -16,7 +16,11 @@ export default function Header() {
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 h-20">
       <nav className="max-w-6xl mx-auto px-4 py-7 flex justify-between items-center">
-        <NavLink to={"/"} className="text-xl font-bold text-green-800">
+        <NavLink
+          to={"/"}
+          aria-label="Головна сторінка"
+          className="text-xl font-bold text-green-800"
+        >
           ЄВРО-ПАРТНЕР-УКРАЇНА
         </NavLink>
 
