@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@keyframes glossy {
+  0% {
+    left: -75%;
+  }
+
+  50% {
+    left: 125%;
+  }
+
+  100% {
+    left: 125%;
+  }
+}
+
+@keyframes truckMove {
+  0% {
+    left: -60px;
+  }
+
+  50% {
+    left: 100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.animate-truckMove {
+  animation: truckMove 4s ease-in-out infinite;
+}
