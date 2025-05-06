@@ -18,7 +18,7 @@ export default function About() {
           Наша місія — забезпечити надійне, швидке та вигідне транспортування і
           закупівлю с/г продукції з урахуванням найвищих стандартів якості.
         </p>
-        <div className=" w-160 h-90 shadow-md overflow-hidden">
+        <div className=" w-full max-w-160 h-70 md:h-90 shadow-md rounded overflow-hidden">
           <iframe
             width="100%"
             height="100%"
