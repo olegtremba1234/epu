@@ -1,4 +1,5 @@
 import HeroParallax from "../components/HeroParallax";
+import PartnersSection from "../components/PartnersSection";
 
 export default function About() {
   return (
@@ -17,11 +18,18 @@ export default function About() {
           Наша місія — забезпечити надійне, швидке та вигідне транспортування і
           закупівлю с/г продукції з урахуванням найвищих стандартів якості.
         </p>
-        <img
-          src="/images/wheat.jpg"
-          alt="Mission"
-          className="rounded-lg shadow-md w-56 h-56"
-        />
+        <div className=" w-160 h-90 shadow-md overflow-hidden">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/hUF1pBSJURw?si=-Nu1s7UKGOKKnBLZ&amp;controls=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div>
           <h2 className="text-2xl font-bold text-green-600">Наші цінності</h2>
           <ul className="list-disc pl-5 text-gray-700 space-y-1">
@@ -31,6 +39,7 @@ export default function About() {
             <li>Партнерство</li>
           </ul>
         </div>
+        <PartnersSection />
       </div>
     </>
   );

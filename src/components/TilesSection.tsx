@@ -6,9 +6,9 @@ const tiles = [
     image: "/images/logistics-1.jpg",
     to: "/activity/transport",
   },
-  { title: "Вакансії", image: "/images/work-1.jpg", to: "/career" },
-  { title: "Про нас", image: "/images/zhnyva-dp.jpg", to: "/about" },
-  { title: "Діяльність", image: "/images/wheat.jpg", to: "/activity" },
+  { title: "Вакансії", image: "/images/work-2.jpg", to: "/career" },
+  { title: "Про нас", image: "/images/purchase-bg.jpg", to: "/about" },
+  { title: "Діяльність", image: "/images/zhnyva-dp.jpg", to: "/activity" },
 ];
 
 export default function TilesSection() {

@@ -1,9 +1,10 @@
+import Breadcrumbs from "../components/Breadcrumbs";
+
 export default function Farming() {
   return (
     <div className="relative w-full h-screen overflow-hidden">
-      {/* Відео як фон на повний екран */}
       <video
-        src="/images/Monastyryske-farming.mp4"
+        src="/video/farming-bg.mp4"
         autoPlay
         loop
         muted
@@ -11,12 +12,13 @@ export default function Farming() {
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
       />
 
-      {/* Напівпрозорий overlay для контрасту */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-10" />
+      <div className="w-full max-w-6xl flex items-center justify-center mt-10">
+        <Breadcrumbs />
+      </div>
 
-      {/* Контент поверх відео по центру */}
       <div className="relative z-20 flex items-center justify-center h-full px-4">
-        <div className="text-white text-center max-w-3xl space-y-6">
+        <div className="text-white text-center max-w-3xl space-y-6 ">
           <h2 className="text-4xl md:text-5xl font-bold text-green-200 drop-shadow-lg">
             Вирощування продукції
           </h2>

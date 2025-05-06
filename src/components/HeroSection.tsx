@@ -1,5 +1,6 @@
 import { Parallax } from "react-scroll-parallax";
 import { Link } from "react-router-dom";
+import ShinyTruckButton from "./ShinyTruckButton";
 
 export default function Hero() {
   return (
@@ -12,7 +13,6 @@ export default function Hero() {
           filter: "brightness(0.5)",
         }}
       />
-      {/* <div className="absolute inset-0 bg-black/50 overflow-hidden " /> */}
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           ЄВРО-ПАРТНЕР-УКРАЇНА
@@ -21,14 +21,17 @@ export default function Hero() {
           Ваш надійний партнер у логістиці, закупівлях та вирощуванні с/г
           продукції
         </p>
-        <Link
-          to="/contacts"
-          className="border border-white text-white px-6 py-3 rounded-md font-medium
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
+          <ShinyTruckButton to="">Замовити розрахунок</ShinyTruckButton>
+          <Link
+            to="/contacts"
+            className="border border-white text-white px-6 py-3 rounded-md font-medium
              hover:bg-green-800/40 hover:border-green-800/40 
              transition duration-200 ease-in-out"
-        >
-          Зв’язатися з нами
-        </Link>
+          >
+            Зв’язатися з нами
+          </Link>
+        </div>
       </div>
     </section>
   );
