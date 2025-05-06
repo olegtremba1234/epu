@@ -25,8 +25,8 @@ export default function Hero() {
           <ShinyTruckButton to="">Замовити розрахунок</ShinyTruckButton>
           <Link
             to="/contacts"
-            className="border border-white text-white px-6 py-3 rounded-md font-medium
-             hover:bg-green-800/40 hover:border-green-800/40 
+            className="border border-green-700 text-white px-6 py-3 rounded-md font-medium
+             hover:bg-green-800 hover:border-green-800 
              transition duration-200 ease-in-out"
           >
             Зв’язатися з нами
