@@ -25,7 +25,7 @@ export default function ContactForm({
       newErrors.email = "Невірний формат email";
     }
     if (!form.phone.trim()) newErrors.phone = "Введіть номер телефону";
-    if (!form.message.trim()) newErrors.message = "Введіть повідомлення";
+    if (form.message.trim()) newErrors.message = "Введіть повідомлення";
     return newErrors;
   };
 

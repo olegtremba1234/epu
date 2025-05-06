@@ -16,7 +16,7 @@ import TransportCalculation from "./pages/TransportCalculationPage";
 export default function App() {
   return (
     <ParallaxProvider>
-      <div className=" font-sans flex flex-col min-h-screen">
+      <div className=" font-oswald flex flex-col min-h-screen">
         <Header />
         <main className=" flex-grow mt-[60px]">
           <ScrollToTop />

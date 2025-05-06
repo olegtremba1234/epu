@@ -15,13 +15,13 @@ export default function Header() {
 
   return (
     <header className="bg-white shadow-md fixed top-0 left-0 w-full z-50 h-20">
-      <nav className="max-w-6xl mx-auto px-4 py-7 flex justify-between items-center">
+      <nav className="max-w-6xl mx-auto px-4 flex justify-between items-center">
         <NavLink
           to={"/"}
           aria-label="Головна сторінка"
           className="text-xl font-bold text-green-800"
         >
-          ЄВРО-ПАРТНЕР-УКРАЇНА
+          <img src="/images/epu-logo.png" alt="ЄПУ Лого" />
         </NavLink>
 
         <button
@@ -33,7 +33,7 @@ export default function Header() {
 
         <ul
           className={`
-            fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-6 text-xl font-semibold transition-transform duration-300
+            fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center space-y-10 text-3xl font-semibold transition-transform duration-300
             ${open ? "translate-x-0" : "-translate-x-full"}
             lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-4 lg:translate-x-0 lg:h-auto lg:w-auto lg:bg-transparent lg:text-base lg:font-medium
           `}

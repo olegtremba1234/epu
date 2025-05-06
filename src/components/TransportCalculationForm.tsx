@@ -26,8 +26,8 @@ export default function TransportCalculationForm() {
     const newErrors: typeof errors = {};
     if (!formData.name.trim()) newErrors.name = "Введіть ім’я";
     if (!formData.phone.trim()) newErrors.phone = "Введіть номер телефону";
-    if (!formData.from.trim()) newErrors.from = "Вкажіть пункт відправлення";
-    if (!formData.to.trim()) newErrors.to = "Вкажіть пункт призначення";
+    if (formData.from.trim()) newErrors.from = "Вкажіть пункт відправлення";
+    if (formData.to.trim()) newErrors.to = "Вкажіть пункт призначення";
     return newErrors;
   };
 
@@ -149,7 +149,7 @@ export default function TransportCalculationForm() {
 
       <button
         type="submit"
-        className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition"
+        className="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 transition cursor-pointer"
       >
         Розрахувати
       </button>
