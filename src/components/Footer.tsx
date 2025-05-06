@@ -67,7 +67,7 @@ export default function Footer() {
           <h4 className="text-base font-semibold mb-4">Ми в соцмережах</h4>
           <div className="flex space-x-4 text-xl">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61575886715731"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -83,7 +83,7 @@ export default function Footer() {
               <FaInstagram className="hover:text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/euro-partner-ukraine/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
