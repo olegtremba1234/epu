@@ -22,7 +22,9 @@ export default function Hero() {
           продукції
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
-          <ShinyTruckButton to="">Замовити розрахунок</ShinyTruckButton>
+          <ShinyTruckButton to="/activity/transport/calculation">
+            Замовити розрахунок
+          </ShinyTruckButton>
           <Link
             to="/contacts"
             className="border border-green-700 text-white px-6 py-3 rounded-md font-medium
