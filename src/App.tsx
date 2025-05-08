@@ -12,6 +12,7 @@ import Transport from "./pages/TransportPage";
 import Farming from "./pages/FarmingPage";
 import ScrollToTop from "./components/ScrollToTop";
 import TransportCalculation from "./pages/TransportCalculationPage";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
             <Route path="/career" element={<Career />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
+          <ScrollToTopButton />
         </main>
         <Footer />
       </div>
