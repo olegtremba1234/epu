@@ -18,7 +18,7 @@ export default function HeroParallax({
     >
       <Parallax
         speed={-20}
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-black/50"
         style={{
           backgroundImage: `url(${image})`,
           filter: "brightness(0.5)",
